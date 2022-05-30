@@ -184,22 +184,22 @@ static const char*      DEFAULT_WIFI_SSID               = "";
 static const char*      DEFAULT_WIFI_PASSPHRASE         = "";
 
 /** Wifi access point network default value */
-static const char*      DEFAULT_WIFI_AP_SSID            = "pixelix";
+static const char*      DEFAULT_WIFI_AP_SSID            = "Inverted_Panopticon";
 
 /** Wifi access point network passphrase default value */
-static const char*      DEFAULT_WIFI_AP_PASSPHRASE      = "Luke, I am your father.";
+static const char*      DEFAULT_WIFI_AP_PASSPHRASE      = "portugal";
 
 /** Website login user account default value */
-static const char*      DEFAULT_WEB_LOGIN_USER          = "luke";
+static const char*      DEFAULT_WEB_LOGIN_USER          = "SLMS";
 
 /** Website login user password default value */
-static const char*      DEFAULT_WEB_LOGIN_PASSWORD      = "skywalker";
+static const char*      DEFAULT_WEB_LOGIN_PASSWORD      = "portugal";
 
 /** Hostname default value */
-static const char*      DEFAULT_HOSTNAME                = "pixelix";
+static const char*      DEFAULT_HOSTNAME                = "Inverted_Panopticon";
 
 /** Brightness default value in % */
-static const uint8_t    DEFAULT_BRIGHTNESS              = 10U; /* If powered via USB, keep this at 10% to avoid damage. */
+static const uint8_t    DEFAULT_BRIGHTNESS              = 70U; /* If powered via USB, keep this at 10% to avoid damage. */
 
 /** Automatic brightness control default value */
 static bool             DEFAULT_AUTO_BRIGHTNESS_CTRL    = false;
