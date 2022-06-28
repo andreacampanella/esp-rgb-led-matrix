@@ -46,6 +46,9 @@ menu.data = [{
         "title": "OpenWeather Plugin",
         "hyperRef": "/plugins/OpenWeatherPlugin.html"
     }, {
+        "title": "Pac-Man Plugin",
+        "hyperRef": "/plugins/PacManPlugin.html"
+    }, {
         "title": "Rainbow Plugin",
         "hyperRef": "/plugins/RainbowPlugin.html"
     }, {

@@ -85,7 +85,7 @@
 #include "ThreeIconPlugin.h"
 #include "VolumioPlugin.h"
 #include "WifiStatusPlugin.h"
-
+#include "PacManPlugin.h"
 #include <lwip/init.h>
 
 /******************************************************************************
@@ -460,6 +460,7 @@ void InitState::registerPlugins()
     pluginMgr.registerPlugin("JustTextPlugin", JustTextPlugin::create);
     pluginMgr.registerPlugin("MatrixPlugin", MatrixPlugin::create);
     pluginMgr.registerPlugin("OpenWeatherPlugin", OpenWeatherPlugin::create);
+    pluginMgr.registerPlugin("PacManPlugin",PacManPlugin::create);    
     pluginMgr.registerPlugin("RainbowPlugin", RainbowPlugin::create);
     pluginMgr.registerPlugin("SensorPlugin", SensorPlugin::create);
     pluginMgr.registerPlugin("ShellyPlugSPlugin", ShellyPlugSPlugin::create);
@@ -471,6 +472,7 @@ void InitState::registerPlugins()
     pluginMgr.registerPlugin("ThreeIconPlugin", ThreeIconPlugin::create);
     pluginMgr.registerPlugin("VolumioPlugin", VolumioPlugin::create);
     pluginMgr.registerPlugin("WifiStatusPlugin", WifiStatusPlugin::create);
+
 
     return;
 }

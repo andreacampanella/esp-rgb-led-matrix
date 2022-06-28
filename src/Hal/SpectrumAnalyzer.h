@@ -158,7 +158,7 @@ private:
      * The sample rate in Hz. According to the Nyquist theorem, it shall be
      * twice as the max. audio frequency, which to support.
      */
-    static const uint32_t               SAMPLE_RATE             = 14080U;
+    static const uint32_t               SAMPLE_RATE             = 28160U;//14080U; higher value get jerky
 
     /**
      * The number of samples over the spectrum. This shall be always a power of 2!
